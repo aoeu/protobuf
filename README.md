@@ -1,5 +1,4 @@
-Go support for Protocol Buffers
-##
+# Go support for Protocol Buffers
 
 Copyright 2010 The Go Authors.  
 https://github.com/golang/protobuf 

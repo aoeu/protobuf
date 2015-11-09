@@ -8,7 +8,8 @@ This software implements Go bindings for protocol buffers.  For
 information about protocol buffers themselves, see
 	https://developers.google.com/protocol-buffers/
 
-## Installation ##
+Installation
+==
 
 To use this software, you must:
 - Install the standard C++ implementation of protocol buffers from
@@ -38,7 +39,8 @@ See the note at the bottom of this file for details.
 There are no insertion points in the plugin.
 
 
-## Using protocol buffers with Go ##
+Using protocol buffers with Go
+==
 
 Once the software is installed, there are two steps to using it.
 First you must compile the protocol buffer definitions and then import

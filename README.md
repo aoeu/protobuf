@@ -1,6 +1,8 @@
-Go support for Protocol Buffers - Google's data interchange format
-Copyright 2010 The Go Authors.
-https://github.com/golang/protobuf
+Go support for Protocol Buffers
+--
+
+Copyright 2010 The Go Authors. 
+https://github.com/golang/protobuf 
 
 This package and the code it generates requires at least Go 1.4.
 
@@ -9,7 +11,7 @@ information about protocol buffers themselves, see
 	https://developers.google.com/protocol-buffers/
 
 Installation
-==
+--
 
 To use this software, you must:
 - Install the standard C++ implementation of protocol buffers from
@@ -40,7 +42,7 @@ There are no insertion points in the plugin.
 
 
 Using protocol buffers with Go
-==
+--
 
 Once the software is installed, there are two steps to using it.
 First you must compile the protocol buffer definitions and then import
@@ -154,7 +156,7 @@ To create and play with a Test object from the example package,
 
 
 gRPC Support
-============
+--
 If a proto file specifies RPC services, protoc-gen-go can be instructed to
 generate code compatible with gRPC (http://www.grpc.io/). To do this, pass
 the `plugins` parameter to protoc-gen-go; the usual way is to insert it into

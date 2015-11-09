@@ -47,7 +47,7 @@ Once the software is installed, there are two steps to using it.
 First you must compile the protocol buffer definitions and then import
 them, with the support library, into your program.
 
-To compile the protocol buffer definition, run protoc with the --go_out
+To compile the protocol buffer definition, run `protoc` with the `--go_out`
 parameter set to the directory you want to output the Go code to.
 
 	protoc --go_out=. *.proto
